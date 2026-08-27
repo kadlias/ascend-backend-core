@@ -21,3 +21,15 @@ El proyecto se centra en tres pilares fundamentales:
 
 ---
 *Desarrollado para demostrar buenas prácticas en modelado de esquemas y arquitectura de APIs en Django.*
+
+## Estado del repositorio
+
+Este repositorio contiene el núcleo de dominio de ASCEND: modelos Django, serializadores DRF y viewsets protegidos. Para ejecutarlo dentro de una aplicación Django se debe integrar el módulo en un proyecto con `AUTH_USER_MODEL` configurado y ejecutar migraciones.
+
+## Dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+Las dependencias incluyen Django, Django REST Framework y el driver de PostgreSQL. No se incluyen credenciales ni datos de usuarios.
